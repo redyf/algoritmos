@@ -1,5 +1,5 @@
-def busca_linear(lista, item):
-    for i in range(len(minha_lista)):
+def busca_linear(lista: list[int], item: int):
+    for i in range(len(lista)):
         if minha_lista[i] == item:
             return i
     return None
